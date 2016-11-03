@@ -1,0 +1,1 @@
+# campanha-marketing-gauge
