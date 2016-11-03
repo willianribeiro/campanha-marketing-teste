@@ -1,0 +1,602 @@
+[
+    {
+        "brand": 2,
+        "user": 18,
+        "type": "SHARE",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 5,
+        "user": 12,
+        "type": "COMMENT",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 4,
+        "user": 15,
+        "type": "SHARE",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 4,
+        "user": 17,
+        "type": "SHARE",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 5,
+        "user": 1,
+        "type": "FAVORITE",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 2,
+        "user": 15,
+        "type": "SHARE",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 3,
+        "user": 14,
+        "type": "SHARE",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 5,
+        "user": 4,
+        "type": "SHARE",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 2,
+        "user": 11,
+        "type": "COMMENT",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 5,
+        "user": 7,
+        "type": "FAVORITE",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 5,
+        "user": 19,
+        "type": "SHARE",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 5,
+        "user": 10,
+        "type": "FAVORITE",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 3,
+        "user": 6,
+        "type": "SHARE",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 2,
+        "user": 13,
+        "type": "COMMENT",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 2,
+        "user": 20,
+        "type": "COMMENT",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 1,
+        "user": 7,
+        "type": "SHARE",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 4,
+        "user": 12,
+        "type": "COMMENT",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 3,
+        "user": 20,
+        "type": "FAVORITE",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 1,
+        "user": 15,
+        "type": "SHARE",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 4,
+        "user": 3,
+        "type": "COMMENT",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 4,
+        "user": 19,
+        "type": "COMMENT",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 3,
+        "user": 18,
+        "type": "FAVORITE",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 3,
+        "user": 1,
+        "type": "SHARE",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 5,
+        "user": 16,
+        "type": "SHARE",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 5,
+        "user": 17,
+        "type": "COMMENT",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 4,
+        "user": 17,
+        "type": "FAVORITE",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 1,
+        "user": 4,
+        "type": "FAVORITE",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 1,
+        "user": 13,
+        "type": "FAVORITE",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 4,
+        "user": 19,
+        "type": "COMMENT",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 1,
+        "user": 1,
+        "type": "SHARE",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 1,
+        "user": 13,
+        "type": "COMMENT",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 5,
+        "user": 4,
+        "type": "COMMENT",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 2,
+        "user": 11,
+        "type": "SHARE",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 2,
+        "user": 9,
+        "type": "FAVORITE",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 1,
+        "user": 13,
+        "type": "FAVORITE",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 1,
+        "user": 12,
+        "type": "COMMENT",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 1,
+        "user": 3,
+        "type": "SHARE",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 3,
+        "user": 15,
+        "type": "FAVORITE",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 4,
+        "user": 2,
+        "type": "COMMENT",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 2,
+        "user": 3,
+        "type": "COMMENT",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 2,
+        "user": 5,
+        "type": "COMMENT",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 1,
+        "user": 15,
+        "type": "COMMENT",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 5,
+        "user": 18,
+        "type": "FAVORITE",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 4,
+        "user": 2,
+        "type": "FAVORITE",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 3,
+        "user": 14,
+        "type": "COMMENT",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 5,
+        "user": 5,
+        "type": "COMMENT",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 5,
+        "user": 13,
+        "type": "FAVORITE",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 1,
+        "user": 2,
+        "type": "FAVORITE",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 2,
+        "user": 6,
+        "type": "COMMENT",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 3,
+        "user": 18,
+        "type": "SHARE",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 4,
+        "user": 1,
+        "type": "COMMENT",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 3,
+        "user": 13,
+        "type": "SHARE",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 5,
+        "user": 8,
+        "type": "SHARE",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 3,
+        "user": 3,
+        "type": "SHARE",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 3,
+        "user": 20,
+        "type": "FAVORITE",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 4,
+        "user": 4,
+        "type": "SHARE",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 2,
+        "user": 16,
+        "type": "COMMENT",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 5,
+        "user": 13,
+        "type": "SHARE",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 5,
+        "user": 10,
+        "type": "COMMENT",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 1,
+        "user": 6,
+        "type": "SHARE",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 2,
+        "user": 9,
+        "type": "SHARE",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 1,
+        "user": 6,
+        "type": "SHARE",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 3,
+        "user": 20,
+        "type": "FAVORITE",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 3,
+        "user": 10,
+        "type": "COMMENT",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 3,
+        "user": 18,
+        "type": "COMMENT",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 4,
+        "user": 6,
+        "type": "COMMENT",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 3,
+        "user": 9,
+        "type": "COMMENT",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 4,
+        "user": 3,
+        "type": "COMMENT",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 3,
+        "user": 20,
+        "type": "SHARE",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 5,
+        "user": 10,
+        "type": "FAVORITE",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 3,
+        "user": 9,
+        "type": "FAVORITE",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 4,
+        "user": 15,
+        "type": "FAVORITE",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 2,
+        "user": 8,
+        "type": "COMMENT",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 4,
+        "user": 20,
+        "type": "COMMENT",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 2,
+        "user": 11,
+        "type": "SHARE",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 3,
+        "user": 13,
+        "type": "SHARE",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 1,
+        "user": 20,
+        "type": "SHARE",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 2,
+        "user": 17,
+        "type": "COMMENT",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 1,
+        "user": 1,
+        "type": "COMMENT",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 1,
+        "user": 16,
+        "type": "FAVORITE",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 4,
+        "user": 19,
+        "type": "SHARE",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 2,
+        "user": 7,
+        "type": "COMMENT",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 5,
+        "user": 17,
+        "type": "FAVORITE",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 5,
+        "user": 18,
+        "type": "COMMENT",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 4,
+        "user": 3,
+        "type": "SHARE",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 2,
+        "user": 15,
+        "type": "COMMENT",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 1,
+        "user": 14,
+        "type": "FAVORITE",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 5,
+        "user": 16,
+        "type": "FAVORITE",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 1,
+        "user": 6,
+        "type": "FAVORITE",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 2,
+        "user": 1,
+        "type": "COMMENT",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 4,
+        "user": 9,
+        "type": "FAVORITE",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 4,
+        "user": 8,
+        "type": "COMMENT",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 1,
+        "user": 7,
+        "type": "FAVORITE",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 2,
+        "user": 5,
+        "type": "COMMENT",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 2,
+        "user": 2,
+        "type": "FAVORITE",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 1,
+        "user": 20,
+        "type": "SHARE",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 3,
+        "user": 12,
+        "type": "FAVORITE",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 1,
+        "user": 12,
+        "type": "COMMENT",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 1,
+        "user": 7,
+        "type": "SHARE",
+        "text": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "brand": 5,
+        "user": 1,
+        "type": "COMMENT",
+        "text": "Lorem ipsum dolor sit amet."
+    }
+]
