@@ -13,15 +13,18 @@
       vm.chartOptions = ChartService.getChartOptions();
       vm.loadChart = loadChart;
       vm.filterByBrand = filterByBrand;
+      vm.isChartVisible = false;
     }
 
     function loadChart() {
       vm.chartOptions.series = ChartModel.series;
+      vm.isChartVisible = true;
     }
 
     function filterByBrand(brand) {
       ChartService.filterByBrand(brand);
       vm.chartOptions.series = ChartModel.series;
+      vm.isChartVisible = true;
     }
 
   }
