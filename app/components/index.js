@@ -2,8 +2,6 @@
   'user strict'
 
   angular
-    .module('app.components', [
-      'app.components.highcharts'
-    ]);
+    .module('app.components', []);
 
 })();
