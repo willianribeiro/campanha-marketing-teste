@@ -63,10 +63,14 @@
     return {
       filterByBrand: function(brand) {
         ChartModel.data.forEach( function ( user ) {
-          var quantity = user.interactions.filter( function (interaction) {
-            return interaction.brand === brand;
-          });
-          user.totalInteractions = quantity.length;
+          if ( brand !== 'all' ) {
+            var quantity = user.interactions.filter( function ( interaction ) {
+              return interaction.brand === brand;
+            });
+            user.totalInteractions = quantity.length;
+          } else {
+            user.totalInteractions = user.interactions.length;
+          }
         });
 
         extractSeries();

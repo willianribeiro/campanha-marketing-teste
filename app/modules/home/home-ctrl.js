@@ -20,7 +20,7 @@
     }
 
     function filterByBrand(brand) {
-      ChartService.filterByBrand(4);
+      ChartService.filterByBrand(brand);
       vm.chartOptions.series = ChartModel.series;
     }
 
