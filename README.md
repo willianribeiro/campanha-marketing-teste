@@ -23,7 +23,7 @@ Para implementar essa solução, foi utilizado o framework JavaScript **AngularJ
 
 Os gráficos foram implementados utilizando o [Highcharts](http://www.highcharts.com). E para integrá-lo com o AngularJS foi utilizado o [highcarts-ng](https://github.com/pablojim/highcharts-ng).
 
-O design foi todo feito em CSS puro, fazendo uso do **Flexbox** e utilizando conceitos do [BEM CSS](http://getbem.com/introduction) para organização código.
+O design foi todo feito em CSS puro, fazendo uso do **Flexbox** e utilizando conceitos do [BEM CSS](http://getbem.com/introduction) e o [SMACSS](https://smacss.com) para organização código.
 
 E para gerenciar essas depêndencias, como já puderam perceber, o bower fez este trabalho!
 
