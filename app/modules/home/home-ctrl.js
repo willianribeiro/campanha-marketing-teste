@@ -13,6 +13,7 @@
       vm.chartOptions = ChartService.getChartOptions();
       vm.loadChart = loadChart;
       vm.filterByBrand = filterByBrand;
+      vm.viewAsBar = viewAsBar;
       vm.isChartVisible = false;
     }
 
@@ -21,10 +22,14 @@
       vm.isChartVisible = true;
     }
 
-    function filterByBrand(brand) {
-      ChartService.filterByBrand(brand);
+    function filterByBrand( brand ) {
+      ChartService.filterByBrand( brand );
       vm.chartOptions.series = ChartModel.series;
       vm.isChartVisible = true;
+    }
+
+    function viewAsBar() {
+      vm.chartOptions.options.chart.type = 'bar';
     }
 
   }

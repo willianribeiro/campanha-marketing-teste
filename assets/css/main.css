@@ -34,14 +34,30 @@
   }
 
     .app-header {
+      display: flex;
+      justify-content: space-between;
       height: 70px;
-      padding: 20px 28px;
       border-bottom: 1px solid #ddd;
       background-color: #f7f7f7;
       font-family: 'Fira Sans', sans-serif;
       font-size: 20px;
       color: #777;
     }
+
+      .app-header__title,
+      .app-header__btn {
+        padding: 20px 28px;
+      }
+
+      .app-header__btn {
+        border-left: 1px solid #ccc;
+        font-size: 14px;
+        cursor: pointer
+      }
+
+      .app-header__btn:hover {
+        background-color: #f0f0f0;
+      }
 
     .app-chart {
       flex-grow: 1;

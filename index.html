@@ -22,7 +22,13 @@
 
       <main class="app-content">
         <header class="app-header">
-          DASHBOARD
+          <div class="app-header__title">
+            DASHBOARD
+          </div>
+
+          <div ng-click="vm.viewAsBar()" ng-show="vm.isChartVisible" class="app-header__btn">
+            Visualizar gráfico na vertical
+          </div>
         </header>
 
         <section class="app-chart" ng-show="vm.isChartVisible">
@@ -30,7 +36,7 @@
         </section>
 
         <section class="app-chart is-empty" ng-show="!vm.isChartVisible">
-            Olá! Selecione alguma opção no menu ao lado para visualizar o gráfico
+            <p>Olá! Selecione alguma opção no menu ao lado para visualizar o gráfico</p>
         </section>
 
       </main>

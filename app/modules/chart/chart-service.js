@@ -81,7 +81,7 @@
           return {
             options: {
               chart: {
-                type: 'bar'
+                type: 'column'
               }
             },
             title: {
