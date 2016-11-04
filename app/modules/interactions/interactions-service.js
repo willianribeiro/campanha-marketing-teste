@@ -5,7 +5,7 @@
     .module( 'app.modules.interactions' )
     .factory( 'InteractionsService', interactionsService );
 
-    function interactionsService( InteractionsModel ) {
+    function interactionsService( $http, InteractionsModel ) {
       var interactionsURL = 'data/interactions.json';
 
       return {

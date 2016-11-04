@@ -5,7 +5,7 @@
     .module( 'app.modules.brands' )
     .factory( 'BrandsService', brandsService );
 
-    function brandsService($http, BrandsModel) {
+    function brandsService( $http, BrandsModel ) {
       var brandsURL = 'data/brands.json';
 
       return {

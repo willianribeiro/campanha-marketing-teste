@@ -5,7 +5,7 @@
     .module( 'app.modules.users' )
     .factory( 'UsersService', usersService );
 
-    function usersService(UsersModel) {
+    function usersService( $http, UsersModel ) {
       var usersURL = 'data/users.json';
 
       return {

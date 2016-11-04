@@ -10,7 +10,7 @@
     init( vm );
 
     function init( vm ) {
-      vm.chartOptions = ChartService.getChartOptions();
+      vm.chartOptions = ChartService.chartOptions;
     }
 
   }

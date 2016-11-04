@@ -5,9 +5,14 @@
     .module( 'app.modules.chart' )
     .factory( 'ChartService', chartService );
 
-  function chartService( ChartModel ) {
+  function chartService( $http, ChartModel,
+                         BrandsService, BrandsModel,
+                         InteractionsService, InteractionsModel,
+                         UsersService, UsersModel ) {
 
-    var interactionDictionary = {};
+    BrandsService.load();
+    InteractionsService.load();
+    UsersService.load();
 
     return {
       getChartData: function() {
@@ -16,8 +21,7 @@
         ];
       },
 
-      getChartOptions: function() {
-        return {
+      chartOptions: {
           chart: {
             type: 'bar'
           },
@@ -34,9 +38,9 @@
               text: 'Interações'
             }
           },
-          series: this.getChartData()
-        };
-      }
+          series: []
+        }
+
     };
   }
 
