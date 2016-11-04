@@ -7,7 +7,8 @@
 
     function chartModel() {
       return {
-        data: {}
+        data: [],
+        series: []
       };
     }
 

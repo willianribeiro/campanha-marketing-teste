@@ -8,20 +8,22 @@
   <body ng-app="app" ng-controller="HomeCtrl as vm">
 
     <section class="chart__container">
-      <highcharts options="vm.chartOptions">Carregando gráfico...</highcharts>
+      <highchart config="vm.chartOptions">Carregando gráfico...</highchart>
     </section>
+
+    <button type="button" ng-click="vm.loadChart()">Carregar gráfico</button>
+    <button type="button" ng-click="vm.filterByBrand()">Filtrar por marca</button>
 
     <!-- Vendors Scripts -->
     <script src="/bower_components/highcharts/highcharts.js"></script>
     <script src="/bower_components/angular/angular.min.js"></script>
+    <script src="/bower_components/highcharts-ng/dist/highcharts-ng.js"></script>
+    <script src="/bower_components/underscore/underscore-min.js"></script>
 
     <!-- App Main-->
     <script src="/app/index.js" charset="utf-8"></script>
     <script src="/app/components/index.js" charset="utf-8"></script>
     <script src="/app/modules/index.js" charset="utf-8"></script>
-
-    <!-- App Components -->
-    <script src="/app/components/highcharts/highcharts.js" charset="utf-8"></script>
 
     <!-- App Modules -->
     <script src="/app/modules/brands/index.js" charset="utf-8"></script>

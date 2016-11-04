@@ -5,50 +5,103 @@
     .module( 'app.modules.chart' )
     .factory( 'ChartService', chartService );
 
-  function chartService( $http, ChartModel,
+  function chartService( $http, $q, ChartModel,
                          BrandsService, BrandsModel,
                          InteractionsService, InteractionsModel,
                          UsersService, UsersModel ) {
 
-    BrandsService.load();
-    InteractionsService.load();
-    UsersService.load();
+    init();
+
+    function init() {
+      loadData().then( prepareData );
+    };
+
+    function loadData() {
+      let promises = {
+        brands: BrandsService.load(),
+        interactions: InteractionsService.load(),
+        users: UsersService.load(),
+      }
+
+      return $q.all( promises ).then( function( result ) {
+        BrandsModel.data = result.brands.data;
+        InteractionsModel.data = result.interactions.data;
+        UsersModel.data = result.users.data;
+      });
+    }
+
+    function prepareData( data ) {
+      var transformedData = [];
+      UsersModel.data.forEach( function( user ) {
+        var entry = {};
+        entry.name = user.name.title + ' ' + user.name.first + ' ' + user.name.last;
+        entry.interactions = InteractionsModel.data.filter( function( interaction ) {
+          return interaction.user === user.id;
+        });
+        entry.totalInteractions = entry.interactions.length;
+        transformedData.push( entry );
+      });
+      ChartModel.data = transformedData;
+
+      extractSeries();
+    }
+
+    function extractSeries() {
+      var series = [];
+
+      ChartModel.data.forEach( function(user) {
+        var entry = {};
+        entry.name = user.name;
+        entry.data = [user.totalInteractions];
+        series.push(entry);
+      });
+
+      series = _.sortBy(series, function(entry) { return -entry.data; })
+      ChartModel.series = series;
+    }
 
     return {
-      getChartData: function() {
-        return [
+      filterByBrand: function(brand) {
+        ChartModel.data.forEach( function ( user ) {
+          var quantity = user.interactions.filter( function (interaction) {
+            return interaction.brand === brand;
+          });
+          user.totalInteractions = quantity.length;
+        });
 
-        ];
+        extractSeries();
       },
 
-      chartOptions: {
-          chart: {
-            type: 'bar'
-          },
-          title: {
-            text: 'Interações dos usuários'
-          },
-          xAxis: {
-            title: {
-              text: 'Usuários'
+      getChartOptions: function() {
+          var values = ChartModel.series;
+          return {
+            options: {
+              chart: {
+                type: 'bar'
+              }
             },
-          },
-          yAxis: {
             title: {
-              text: 'Interações'
+              text: 'Interações dos usuários com as marcas'
+            },
+            xAxis: {
+              title: {
+                text: 'Usuários'
+              },
+            },
+            yAxis: {
+              title: {
+                text: 'Interações'
+              }
+            },
+            size: {
+              width: 900,
+              height: 700
             }
-          },
-          series: []
-        }
+          };
+      }
+
 
     };
   }
 
 })();
-
-// {
-//     "brand": 2,
-//     "user": 18,
-//     "type": "SHARE",
-//     "text": "Lorem ipsum dolor sit amet."
-// }

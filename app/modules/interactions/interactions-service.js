@@ -10,7 +10,7 @@
 
       return {
         load: function() {
-          InteractionsModel.data = $http.get( interactionsURL );;
+          return $http.get( interactionsURL );
         }
       }
     }

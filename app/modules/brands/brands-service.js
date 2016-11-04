@@ -10,7 +10,7 @@
 
       return {
         load: function() {
-          BrandsModel.data = $http.get( brandsURL );
+          return $http.get( brandsURL );
         }
       }
     }

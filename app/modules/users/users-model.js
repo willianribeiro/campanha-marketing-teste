@@ -7,7 +7,7 @@
 
     function usersModel() {
       return {
-        data: {}
+        data: []
       }
     }
 

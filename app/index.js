@@ -4,7 +4,8 @@
   var app;
   app = angular.module('app', [
     'app.components',
-    'app.modules'
+    'app.modules',
+    'highcharts-ng'
   ]);
 
 })();
