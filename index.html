@@ -3,16 +3,34 @@
   <head>
     <meta charset="utf-8">
     <title>Gauge - Campanha de Marketing</title>
-    <link rel="stylesheet" href="/assets/css/main.css" media="screen" title="no title">
+    <link rel="stylesheet" href="/assets/fonts/custom-fonts.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
   </head>
   <body ng-app="app" ng-controller="HomeCtrl as vm">
 
-    <section class="chart__container">
-      <highchart config="vm.chartOptions">Carregando gráfico...</highchart>
-    </section>
+    <header class="app-header">
+      <nav class="navigation">
+        <div class="navigation__item "ng-click="vm.filterByBrand('all')">Todas as marcas</div>
+        <div class="navigation__item "ng-click="vm.filterByBrand(1)">Ambev</div>
+        <div class="navigation__item "ng-click="vm.filterByBrand(2)">Nike</div>
+        <div class="navigation__item "ng-click="vm.filterByBrand(3)">Honda</div>
+        <div class="navigation__item "ng-click="vm.filterByBrand(4)">Oi</div>
+        <div class="navigation__item "ng-click="vm.filterByBrand(5)">Itaú</div>
+      </nav>
+    </header>
 
-    <button type="button" ng-click="vm.loadChart()">Carregar gráfico</button>
-    <button type="button" ng-click="vm.filterByBrand()">Filtrar por marca</button>
+    <main class="app-main">
+      <section class="app-instructions">
+        Olá! Selecione alguma opção no menu acima para visualizar o gráfico
+      </section>
+
+      <section class="app-chart">
+        <highchart config="vm.chartOptions">Carregando gráfico...</highchart>
+      </section>
+    </main>
+
+    <footer class="app-footer">
+    </footer>
 
     <!-- Vendors Scripts -->
     <script src="/bower_components/highcharts/highcharts.js"></script>

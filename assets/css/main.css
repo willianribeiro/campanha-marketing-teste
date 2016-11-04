@@ -1,5 +1,57 @@
-.chart__container {
-  width: 100%;
-  padding: 8px;
-  background-color: #d1d1d1;
+.app-header {
+  display: flex;
+  height: 60px;
+  padding: 0 24px;
+  background-color: #508cc8;
+}
+
+  .navigation {
+    display: flex;
+    align-items: center;
+    font-family: 'Fira Sans', sans-serif;
+    color: #fff;
+  }
+
+    .navigation__item {
+      height: 60px;
+      padding: 18px 24px;
+      cursor: pointer;
+    }
+
+    .navigation__item:hover {
+      background-color: #4a85bf;
+    }
+
+.app-main {
+  padding: 24px 48px;
+}
+
+  .app-instructions {
+    padding: 24px 0;
+  }
+
+  .app-chart {
+    
+  }
+
+  .highcharts-container {
+    margin: 0 auto;
+  }
+
+.app-footer {
+  height: 30px;
+  background-color: #508cc8;
+}
+
+
+
+body {
+  font-family: 'Merriweather', serif;
+}
+
+/* RESET CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;;
 }
