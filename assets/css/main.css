@@ -1,52 +1,74 @@
-.app-header {
+.app-wrapper {
   display: flex;
-  height: 60px;
-  padding: 0 24px;
-  background-color: #508cc8;
+  align-items: stretch;
+  min-height: 100%;
 }
 
-  .navigation {
+  .app-sidebar {
+    width: 190px;
+    background-color: #508cc8;
+    background-color: #4174a7;
+  }
+
+    .navigation {
+      display: flex;
+      flex-direction: column;
+      padding: 24px 0;
+      font-family: 'Fira Sans', sans-serif;
+      color: #fff;
+    }
+
+      .navigation__item {
+        padding: 10px 25px;
+        cursor: pointer;
+      }
+
+      .navigation__item:hover {
+        background-color: #4a85bf;
+      }
+
+  .app-content {
+    flex-grow: 1;
     display: flex;
-    align-items: center;
-    font-family: 'Fira Sans', sans-serif;
-    color: #fff;
+    flex-direction: column;
   }
 
-    .navigation__item {
-      height: 60px;
-      padding: 18px 24px;
-      cursor: pointer;
+    .app-header {
+      height: 70px;
+      padding: 20px 28px;
+      border-bottom: 1px solid #ddd;
+      background-color: #f7f7f7;
+      font-family: 'Fira Sans', sans-serif;
+      font-size: 20px;
+      color: #777;
     }
 
-    .navigation__item:hover {
-      background-color: #4a85bf;
+    .app-chart {
+      flex-grow: 1;
+      padding: 24px 28px;
+    }
+    .app-chart.is-empty {
+      text-align: center;
     }
 
-.app-main {
-  padding: 24px 48px;
-}
+    .highcharts-container {
+      margin: 0 auto;
+    }
 
-  .app-instructions {
-    padding: 24px 0;
-  }
-
-  .app-chart {
-    
-  }
-
-  .highcharts-container {
-    margin: 0 auto;
-  }
-
-.app-footer {
+/*.app-footer {
   height: 30px;
   background-color: #508cc8;
+}*/
+
+
+html,
+body {
+  height: 100%;
 }
-
-
 
 body {
   font-family: 'Merriweather', serif;
+  color: #777;
 }
 
 /* RESET CSS */
