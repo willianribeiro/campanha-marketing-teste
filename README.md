@@ -1,4 +1,10 @@
-Este foi um teste prático feito para entrevista da Gauge.
+Olá navegante! (:
+
+Este foi um teste prático implementado para uma entrevista da empresa Gauge.
+
+Dê uma olhada no resultado final clicando neste [link!](http://gauge-teste.surge.sh)
+
+
 
 ---
 ## Rodando o projeto
